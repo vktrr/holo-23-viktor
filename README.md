@@ -1,6 +1,6 @@
 # Augmented Reality Workshop
 
-ECAL M&ID Block Week, April 2023, ecal
+ECAL M&ID Block Week, April 2023
 
 
 ## Hololens 2 Development
