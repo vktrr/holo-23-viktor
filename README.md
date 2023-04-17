@@ -34,3 +34,13 @@ Note: All this only works on Windows. If something doesn't work, please give a c
 ### Docs
 - https://learn.microsoft.com/en-us/windows/mixed-reality/
 - https://learn.microsoft.com/en-us/windows/mixed-reality/mrtk-unity/mrtk3-overview/
+
+
+## Example Project
+
+- The project includes:
+   - The mrtk 3 sample scenes
+   - Samples for using the esp32 controller
+   - Samples for using the scene meshing together with the esp32 controller as a feedback
+ 
+   
