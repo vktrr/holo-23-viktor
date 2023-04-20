@@ -7,7 +7,7 @@
       "dependencies": {
         "jp.keijiro.osc-jack": "1.0.3"
       },
-      "hash": "4a104bfd85620656fdcad243240b92a183d99944"
+      "hash": "08b3825c61ba6ad165a0deff62ee0e8543e92838"
     },
     "com.atteneder.gltfast": {
       "version": "https://github.com/atteneder/glTFast.git#v4.8.3",
