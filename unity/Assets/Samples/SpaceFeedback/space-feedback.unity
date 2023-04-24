@@ -468,6 +468,7 @@ GameObject:
   - component: {fileID: 1182481159}
   - component: {fileID: 1182481158}
   - component: {fileID: 1182481157}
+  - component: {fileID: 1182481161}
   m_Layer: 0
   m_Name: ESP32-Input
   m_TagString: Untagged
@@ -512,7 +513,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 269a7419b47a47f0bff769a8ade8cfe9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  settings: {fileID: 11400000, guid: 560a45bce1627e445a5da111c6342cc6, type: 2}
+  settings:
+    serverPort: 8888
+    clients:
+    - name: controller6
+      address: 172.20.10.8
+      port: 9999
+    - name: hapticband1
+      address: 10.189.8.191
+      port: 9999
 --- !u!4 &1182481160
 Transform:
   m_ObjectHideFlags: 0
@@ -528,6 +537,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1182481161
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1182481156}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1bee71b8cc457d43b5e2d4e59968658, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  config: {fileID: 11400000, guid: ec6832acdf4d8f6498c1c9040b0320d7, type: 2}
+  overrideHostNameInEditor: 0
+  editorOverrideHostName: 
 --- !u!1001 &1507552513
 PrefabInstance:
   m_ObjectHideFlags: 0
