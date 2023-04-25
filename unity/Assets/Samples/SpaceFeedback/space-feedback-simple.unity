@@ -476,11 +476,17 @@ MonoBehaviour:
   settings:
     serverPort: 8888
     clients:
+    - name: controller5
+      address: 10.189.8.159
+      port: 9999
     - name: controller6
-      address: 172.20.10.8
+      address: 10.189.8.200
       port: 9999
     - name: hapticband1
       address: 10.189.8.191
+      port: 9999
+    - name: hapticband5
+      address: 10.189.8.65
       port: 9999
 --- !u!4 &1182481160
 Transform:
@@ -510,8 +516,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   config: {fileID: 11400000, guid: ec6832acdf4d8f6498c1c9040b0320d7, type: 2}
-  overrideHostNameInEditor: 0
-  editorOverrideHostName: 
+  overrideHostNameInEditor: 1
+  editorOverrideHostName: HOLOLENS-558S2T
 --- !u!1 &1768238023
 GameObject:
   m_ObjectHideFlags: 0
