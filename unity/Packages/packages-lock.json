@@ -279,6 +279,15 @@
       "dependencies": {},
       "url": "https://packages.unity.com"
     },
+    "com.unity.postprocessing": {
+      "version": "3.2.2",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.modules.physics": "1.0.0"
+      },
+      "url": "https://packages.unity.com"
+    },
     "com.unity.project-auditor": {
       "version": "https://github.com/Unity-Technologies/ProjectAuditor.git",
       "depth": 0,

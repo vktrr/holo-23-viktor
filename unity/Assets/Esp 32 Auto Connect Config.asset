@@ -13,7 +13,5 @@ MonoBehaviour:
   m_Name: Esp 32 Auto Connect Config
   m_EditorClassIdentifier: 
   devices:
-  - hostname: HOLOLENS-558S2T
+  - hostname: .*
     deviceId: hapticband1
-  - hostname: ACFALENS25
-    deviceId: hapticband2

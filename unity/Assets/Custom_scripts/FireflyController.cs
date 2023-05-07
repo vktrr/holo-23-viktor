@@ -88,7 +88,7 @@ void FixedUpdate()
         float mappedSpeed = Mathf.Clamp01((float)((smoothedObjectSpeed - stillnessThreshold) / (maxSpeed - stillnessThreshold))) * 100;
 
         // Disable the attraction force with the mapped speed
-        // Debug.Log("Object speed: " + objectSpeed);
+        Debug.Log("Object speed: " + objectSpeed);
         // Debug.Log("Mapped speed: " + mappedSpeed);
         attractionForce.Disable(mappedSpeed);
     }
